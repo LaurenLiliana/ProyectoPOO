@@ -7,6 +7,22 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="wwwroot\js\vistas\Categoria_Index.js" />
+    <Content Remove="wwwroot\js\vistas\Negocio_Index.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="wwwroot\js\vistas\Categoria_Index.js" />
+    <_ContentIncludedByDefault Remove="wwwroot\js\vistas\Negocio_Index.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\js\vistas\Categoria_Index.js" />
+    <None Include="wwwroot\js\vistas\Negocio_Index.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="13.0.1" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.3" />
   </ItemGroup>
 
